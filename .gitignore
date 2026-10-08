@@ -1,6 +1,6 @@
-/frontend/agent
-
-# Vendored PoC source (build artifacts copied into frontend/public/engine)
+# Vendored PoC build output (the compiled PoC copies its artifacts into
+# frontend/public/engine). The adapted, committed wrapper lives at
+# frontend/src/engine/vendor/ and must stay tracked.
 /vendor/
 branch_structure.json
 temp_auto_push.bat
