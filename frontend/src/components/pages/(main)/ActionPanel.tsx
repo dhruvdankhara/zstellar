@@ -231,6 +231,7 @@ export function ActionPanel() {
               loading="lazy"
               decoding="async"
               className={`h-7 w-7 object-contain ${asset.imgClass}`}
+              unoptimized
             />
             {asset.symbol}
             <TbChevronDown className="h-4 w-4 text-muted" />
@@ -333,6 +334,7 @@ export function ActionPanel() {
             loading="lazy"
             decoding="async"
             className="h-4 w-4 object-contain dark:invert"
+            unoptimized
           />
         </span>
       </div>
@@ -440,6 +442,7 @@ export function ActionPanel() {
                         loading="lazy"
                         decoding="async"
                         className={`h-9 w-9 object-contain ${token.imgClass}`}
+                        unoptimized
                       />
                       <span className="flex flex-col">
                         <span className="text-[15px] font-semibold text-fg">
